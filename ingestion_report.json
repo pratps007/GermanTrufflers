@@ -1,0 +1,169 @@
+{
+  "ingested_at": "2026-09-18T14:42:09.765910+00:00",
+  "datasets": [
+    {
+      "id": "wards",
+      "name": "GCC Ward Boundaries",
+      "status": "SUCCESS",
+      "features": 200,
+      "geometry_types": [
+        "Polygon",
+        "MultiPolygon"
+      ],
+      "bounds": [
+        80.13409479088227,
+        12.852092938839165,
+        80.33149353038425,
+        13.235049055200307
+      ],
+      "source_crs": "EPSG:32644",
+      "output_crs": "EPSG:4326",
+      "path": "D:\\Prathmesh\\CHENNAI-X\\data/boundary/processed/wards.geojson",
+      "provenance": "VERIFIED",
+      "duration_seconds": 12.73
+    },
+    {
+      "id": "zones",
+      "name": "GCC Zone Boundaries",
+      "status": "SUCCESS",
+      "features": 15,
+      "geometry_types": [
+        "Polygon"
+      ],
+      "bounds": [
+        80.13409479088227,
+        12.852092938839165,
+        80.33149353038425,
+        13.235049055200307
+      ],
+      "source_crs": "EPSG:32644",
+      "output_crs": "EPSG:4326",
+      "path": "D:\\Prathmesh\\CHENNAI-X\\data/boundary/processed/zones.geojson",
+      "provenance": "VERIFIED",
+      "duration_seconds": 1.66
+    },
+    {
+      "id": "region",
+      "name": "GCC Region Boundary",
+      "status": "SUCCESS",
+      "features": 3,
+      "geometry_types": [
+        "Polygon"
+      ],
+      "bounds": [
+        80.13409479088227,
+        12.852092938839165,
+        80.33149353038425,
+        13.235049055200307
+      ],
+      "source_crs": "EPSG:32644",
+      "output_crs": "EPSG:4326",
+      "path": "D:\\Prathmesh\\CHENNAI-X\\data/boundary/processed/region.geojson",
+      "provenance": "VERIFIED",
+      "duration_seconds": 13.75
+    },
+    {
+      "id": "rivers",
+      "name": "GCC Rivers & Canals",
+      "status": "SUCCESS",
+      "features": 3,
+      "geometry_types": [
+        "Polygon"
+      ],
+      "bounds": [
+        80.15220494737602,
+        13.001284476650996,
+        80.331749032222,
+        13.241007423446916
+      ],
+      "source_crs": "EPSG:32644",
+      "output_crs": "EPSG:4326",
+      "path": "D:\\Prathmesh\\CHENNAI-X\\data/waterways/processed/rivers.geojson",
+      "provenance": "VERIFIED",
+      "duration_seconds": 1.17
+    },
+    {
+      "id": "stormwater_drains",
+      "name": "GCC Storm Water Drains",
+      "status": "SUCCESS",
+      "features": 11531,
+      "geometry_types": [
+        "LineString",
+        "MultiLineString"
+      ],
+      "bounds": [
+        80.13402238396708,
+        12.862029554027814,
+        80.32793686602383,
+        13.230332312794365
+      ],
+      "source_crs": "EPSG:32644",
+      "output_crs": "EPSG:4326",
+      "path": "D:\\Prathmesh\\CHENNAI-X\\data/drainage/processed/stormwater_drains.geojson",
+      "provenance": "VERIFIED",
+      "duration_seconds": 32.44
+    },
+    {
+      "id": "road_centerlines",
+      "name": "GCC Road Centerlines",
+      "status": "SUCCESS",
+      "features": 37351,
+      "geometry_types": [
+        "MultiLineString",
+        "LineString"
+      ],
+      "bounds": [
+        80.13435597859576,
+        12.852251240076281,
+        80.33083902620957,
+        13.232145889899439
+      ],
+      "source_crs": "EPSG:32644",
+      "output_crs": "EPSG:4326",
+      "path": "D:\\Prathmesh\\CHENNAI-X\\data/roads/processed/road_centerlines.geojson",
+      "provenance": "VERIFIED",
+      "duration_seconds": 181.16
+    },
+    {
+      "id": "carriageway",
+      "name": "GCC CarriageWay Network",
+      "status": "SUCCESS",
+      "features": 37075,
+      "geometry_types": [
+        "MultiPolygon",
+        "Polygon"
+      ],
+      "bounds": [
+        80.13434620428826,
+        12.852242358160447,
+        80.33086613669334,
+        13.232154963956747
+      ],
+      "source_crs": "EPSG:32644",
+      "output_crs": "EPSG:4326",
+      "path": "D:\\Prathmesh\\CHENNAI-X\\data/roads/processed/carriageway.geojson",
+      "provenance": "VERIFIED",
+      "duration_seconds": 222.19
+    },
+    {
+      "id": "subways",
+      "name": "GCC Vehicular Subways",
+      "status": "SUCCESS",
+      "features": 22,
+      "geometry_types": [
+        "LineString"
+      ],
+      "bounds": [
+        80.18537024191419,
+        12.991222605423218,
+        80.31991109000175,
+        13.222708286163805
+      ],
+      "source_crs": "EPSG:32644",
+      "output_crs": "EPSG:4326",
+      "path": "D:\\Prathmesh\\CHENNAI-X\\data/infrastructure/processed/subways.geojson",
+      "provenance": "VERIFIED",
+      "duration_seconds": 0.76
+    }
+  ]
+}
