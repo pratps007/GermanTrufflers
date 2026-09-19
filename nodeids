@@ -1,0 +1,10 @@
+[
+  "tests/test_pravah_engine.py::test_agricultural_exposure_and_crop_stage",
+  "tests/test_pravah_engine.py::test_data_fusion_event_graph",
+  "tests/test_pravah_engine.py::test_data_registry_provenance",
+  "tests/test_pravah_engine.py::test_dynamic_emergency_network",
+  "tests/test_pravah_engine.py::test_farmer_advisories_provenance",
+  "tests/test_pravah_engine.py::test_flood_rainfall_increase_increases_risk",
+  "tests/test_pravah_engine.py::test_recovery_prioritization_order",
+  "tests/test_pravah_engine.py::test_road_accessibility_thresholds"
+]
